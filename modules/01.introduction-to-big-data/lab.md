@@ -57,4 +57,4 @@ To connect via SSH:
 Now you will try out some Linux commands. Check out this tutorial: [Basic Linux commands](https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners).
 Ultimately, you have to create a file in the folder that your teacher will give you. The file has to:
 
-- Be named after your username with the extension `.txt` (e.g. `gauthier.txt`)
+- Be named after your username with the extension `.txt` (e.g. `yanis.txt`)
