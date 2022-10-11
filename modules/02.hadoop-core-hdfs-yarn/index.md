@@ -126,7 +126,7 @@ Yet Another Resource Negotiator:
 
 - **ResourceManager** (= master):
 
-- - Schedule applications based on available resources
+  - Schedule applications based on available resources
   - Gather information about running applications
 
 - **NodeManager** (= worker): Handle resources on one worker
@@ -149,7 +149,7 @@ Components (JVMs) of an application:
 
 - Queues
 
-- - CentraleSupelec - 70% 100%
+- - ESGF - 70% 100%
 
   - - APP - 50% 100%
     - INI - 50% 100%
