@@ -48,7 +48,7 @@ To connect via SSH:
 1. On Windows only, you might have to install Putty: https://www.putty.org/
 2. Check the email you received from Adaltas. You will find your username, password, and a sample SSH command there. My username is gauthier, this is the command I received:
    ```
-   ssh gauthier@edge-1.au.adaltas.cloud
+   ssh yanis@edge-1.au.adaltas.cloud
    ```
 3. On your first connection, you will be asked to change your password. Read the instructions carefully: when you are prompted `Current password`, type the temporary password that you received by email. Please store your new password in a safe place.
 
