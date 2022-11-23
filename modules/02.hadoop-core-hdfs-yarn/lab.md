@@ -98,7 +98,7 @@ The WordCount example is also located in the MapReduce example JAR. It takes sev
 2. Run the command:
    ```bash
    yarn jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-mapreduce-examples-3.1.1.3.1.0.0-78.jar \
-    wordcount /education/cs_2022_spring_1/resources/lab2 \
-    /education/cs_2022_spring_1/$USER/lab2/output-moby-dick
+    wordcount /education/esgf_2022_fall_bda_1/resources/lab2 \
+    /education/esgf_2022_fall_bda_1/$USER/lab2/output-moby-dick
    ```
 3. Check out the output directory
