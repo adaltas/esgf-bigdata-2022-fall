@@ -1,6 +1,6 @@
 SET hivevar:director='Quentin Tarantino';
 
-USE ece_2022_spring_app_1;
+USE esgf_2022_fall_bda_1;
 SELECT
   t.tconst AS tconst,
   t.primarytitle AS title,

@@ -1,6 +1,6 @@
 SET hivevar:hiveUsername=gauthier;
 
-INSERT OVERWRITE TABLE ece_2022_spring_app_1.${hiveUsername}_nyc_drivers
+INSERT OVERWRITE TABLE esgf_2022_fall_bda_1.${hiveUsername}_nyc_drivers
 SELECT 
   driver_id,
   split(name, ' ')[0] AS first_name,
@@ -9,4 +9,4 @@ SELECT
   location AS address,
   CASE WHEN certified = 'Y' THEN true ELSE false END,
   wage_plan
-FROM ece_2022_spring_app_1.${hiveUsername}_nyc_drivers_ext;
+FROM esgf_2022_fall_bda_1.${hiveUsername}_nyc_drivers_ext;
