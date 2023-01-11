@@ -8,5 +8,5 @@ CREATE EXTERNAL TABLE IF NOT EXISTS esgf_2022_fall_bda_1${group}.${username}_nyc
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 STORED AS TEXTFILE
-LOCATION '/education/ece/big-data/2020/fall/bda/gr${group}/${username}/lab4/nyc_drivers'
+LOCATION '/education/esgf_2022_fall_bda_1/${clusterUsername}/lab4/nyc_drivers'
 TBLPROPERTIES ('skip.header.line.count'='1');
