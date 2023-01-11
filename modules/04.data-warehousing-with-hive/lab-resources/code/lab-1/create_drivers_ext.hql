@@ -1,6 +1,6 @@
-SET hivevar:clusterUsername=p.nom-ece;
+SET hivevar:clusterUsername=teacher;
 -- DO NOT USE '.' NOR '-' IN HIVEUSERNAME
-SET hivevar:hiveUsername=p_nom_ece;
+SET hivevar:hiveUsername=teacher;
 
 CREATE EXTERNAL TABLE IF NOT EXISTS esgf_2022_fall_bda_1.${hiveUsername}_nyc_drivers_ext (
   driver_id INT,

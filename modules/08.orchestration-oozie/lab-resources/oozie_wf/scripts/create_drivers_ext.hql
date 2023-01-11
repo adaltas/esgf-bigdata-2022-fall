@@ -1,4 +1,4 @@
-CREATE EXTERNAL TABLE IF NOT EXISTS esgf_2022_fall_bda_${group}.${hiveUsername}_nyc_drivers_ext (
+CREATE EXTERNAL TABLE IF NOT EXISTS ece_2020_fall_bda_${group}.${username}_nyc_drivers_ext (
   driver_id INT,
   name STRING,
   ssn INT,
